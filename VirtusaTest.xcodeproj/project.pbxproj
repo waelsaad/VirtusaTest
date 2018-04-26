@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1610FD4DEDF741068D4C5E06 /* Pods_VirtusaTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03471316D8824B9869BE46F8 /* Pods_VirtusaTestTests.framework */; };
+		693D30AD20908EA000A0B3D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693D30AC20908EA000A0B3D7 /* AppDelegate.swift */; };
+		693D30C420908EA100A0B3D7 /* VirtusaTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693D30C320908EA100A0B3D7 /* VirtusaTestTests.swift */; };
+		693D30E7209091A100A0B3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693D30E3209091A100A0B3D7 /* LaunchScreen.storyboard */; };
+		693D30E8209091A100A0B3D7 /* Facts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693D30E5209091A100A0B3D7 /* Facts.storyboard */; };
+		693D30EB2090974A00A0B3D7 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693D30EA2090974A00A0B3D7 /* Fact.swift */; };
+		69CA9A772091ECC500917FF4 /* FactWebservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A762091ECC500917FF4 /* FactWebservice.swift */; };
+		69CA9A792091ECEB00917FF4 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A782091ECEB00917FF4 /* ViewExtensions.swift */; };
+		69CA9A7D2091EDEA00917FF4 /* FactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A7A2091EDEA00917FF4 /* FactsViewController.swift */; };
+		69CA9A7E2091EDEA00917FF4 /* FactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A7B2091EDEA00917FF4 /* FactDetailViewController.swift */; };
+		69CA9A7F2091EDEA00917FF4 /* FactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A7C2091EDEA00917FF4 /* FactCollectionViewCell.swift */; };
+		69CA9A822091EE0700917FF4 /* FactCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A802091EE0700917FF4 /* FactCellViewModel.swift */; };
+		69CA9A832091EE0700917FF4 /* FactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A812091EE0700917FF4 /* FactViewModel.swift */; };
+		69CA9A852091EE2600917FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CA9A842091EE2600917FF4 /* Assets.xcassets */; };
+		69CA9A882091F26800917FF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A872091F26700917FF4 /* Constants.swift */; };
+		69CA9A8A20920F9400917FF4 /* String+URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CA9A8920920F9400917FF4 /* String+URLRequest.swift */; };
+		69CA9A8E209214C400917FF4 /* Facts.json in Resources */ = {isa = PBXBuildFile; fileRef = 69CA9A8C2092137A00917FF4 /* Facts.json */; };
+		E86F395BF1E62FC04D172352 /* Pods_VirtusaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F421C80A2432E15720273C /* Pods_VirtusaTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		693D30C020908EA100A0B3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 693D30A120908EA000A0B3D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693D30A820908EA000A0B3D7;
+			remoteInfo = VirtusaTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03471316D8824B9869BE46F8 /* Pods_VirtusaTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtusaTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E724B3AA2F35E52B382A28A /* Pods-VirtusaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		27F421C80A2432E15720273C /* Pods_VirtusaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VirtusaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B6B096634CF2EB5967E783 /* Pods-VirtusaTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtusaTestTests/Pods-VirtusaTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		693D30A920908EA000A0B3D7 /* VirtusaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtusaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		693D30AC20908EA000A0B3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		693D30BA20908EA100A0B3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693D30BF20908EA100A0B3D7 /* VirtusaTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtusaTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		693D30C320908EA100A0B3D7 /* VirtusaTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtusaTestTests.swift; sourceTree = "<group>"; };
+		693D30C520908EA100A0B3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693D30E4209091A100A0B3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		693D30E6209091A100A0B3D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Facts.storyboard; sourceTree = "<group>"; };
+		693D30EA2090974A00A0B3D7 /* Fact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		69CA9A762091ECC500917FF4 /* FactWebservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactWebservice.swift; sourceTree = "<group>"; };
+		69CA9A782091ECEB00917FF4 /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		69CA9A7A2091EDEA00917FF4 /* FactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsViewController.swift; sourceTree = "<group>"; };
+		69CA9A7B2091EDEA00917FF4 /* FactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactDetailViewController.swift; sourceTree = "<group>"; };
+		69CA9A7C2091EDEA00917FF4 /* FactCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactCollectionViewCell.swift; sourceTree = "<group>"; };
+		69CA9A802091EE0700917FF4 /* FactCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactCellViewModel.swift; sourceTree = "<group>"; };
+		69CA9A812091EE0700917FF4 /* FactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactViewModel.swift; sourceTree = "<group>"; };
+		69CA9A842091EE2600917FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69CA9A872091F26700917FF4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69CA9A8920920F9400917FF4 /* String+URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLRequest.swift"; sourceTree = "<group>"; };
+		69CA9A8C2092137A00917FF4 /* Facts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Facts.json; sourceTree = "<group>"; };
+		F317ECF9D9600C9AE53EC5BA /* Pods-VirtusaTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VirtusaTestTests/Pods-VirtusaTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F64106BF102EEC9960B717A6 /* Pods-VirtusaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VirtusaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		693D30A620908EA000A0B3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86F395BF1E62FC04D172352 /* Pods_VirtusaTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693D30BC20908EA100A0B3D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1610FD4DEDF741068D4C5E06 /* Pods_VirtusaTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F2152BC8874D160C1486BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E724B3AA2F35E52B382A28A /* Pods-VirtusaTest.debug.xcconfig */,
+				F64106BF102EEC9960B717A6 /* Pods-VirtusaTest.release.xcconfig */,
+				F317ECF9D9600C9AE53EC5BA /* Pods-VirtusaTestTests.debug.xcconfig */,
+				41B6B096634CF2EB5967E783 /* Pods-VirtusaTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		693D30A020908EA000A0B3D7 = {
+			isa = PBXGroup;
+			children = (
+				693D30AB20908EA000A0B3D7 /* VirtusaTest */,
+				693D30C220908EA100A0B3D7 /* VirtusaTestTests */,
+				693D30AA20908EA000A0B3D7 /* Products */,
+				20F2152BC8874D160C1486BD /* Pods */,
+				D697412E31682256C88DF76C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		693D30AA20908EA000A0B3D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				693D30A920908EA000A0B3D7 /* VirtusaTest.app */,
+				693D30BF20908EA100A0B3D7 /* VirtusaTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		693D30AB20908EA000A0B3D7 /* VirtusaTest */ = {
+			isa = PBXGroup;
+			children = (
+				693D30D020908F6500A0B3D7 /* AppDelegate */,
+				693D30DD209090CA00A0B3D7 /* Controllers */,
+				693D30E1209090F200A0B3D7 /* Views */,
+				693D30DE209090D700A0B3D7 /* Extensions */,
+				693D30E92090973A00A0B3D7 /* Model */,
+				693D30E0209090E900A0B3D7 /* View Models */,
+				693D30E22090910000A0B3D7 /* Web Services */,
+				69CA9A752091ECA000917FF4 /* Constants */,
+				693D30D120908F8400A0B3D7 /* Assets */,
+				693D30BA20908EA100A0B3D7 /* Info.plist */,
+			);
+			path = VirtusaTest;
+			sourceTree = "<group>";
+		};
+		693D30C220908EA100A0B3D7 /* VirtusaTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				693D30C320908EA100A0B3D7 /* VirtusaTestTests.swift */,
+				693D30C520908EA100A0B3D7 /* Info.plist */,
+			);
+			path = VirtusaTestTests;
+			sourceTree = "<group>";
+		};
+		693D30D020908F6500A0B3D7 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				693D30AC20908EA000A0B3D7 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		693D30D120908F8400A0B3D7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A8B2092136400917FF4 /* DummyData */,
+				69CA9A842091EE2600917FF4 /* Assets.xcassets */,
+				693D30D42090900500A0B3D7 /* Base.lproj */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		693D30D42090900500A0B3D7 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				693D30E3209091A100A0B3D7 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		693D30DD209090CA00A0B3D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A862091EEB700917FF4 /* Facts */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		693D30DE209090D700A0B3D7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A8920920F9400917FF4 /* String+URLRequest.swift */,
+				69CA9A782091ECEB00917FF4 /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		693D30E0209090E900A0B3D7 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A802091EE0700917FF4 /* FactCellViewModel.swift */,
+				69CA9A812091EE0700917FF4 /* FactViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		693D30E1209090F200A0B3D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A7C2091EDEA00917FF4 /* FactCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		693D30E22090910000A0B3D7 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A762091ECC500917FF4 /* FactWebservice.swift */,
+			);
+			path = "Web Services";
+			sourceTree = "<group>";
+		};
+		693D30E92090973A00A0B3D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				693D30EA2090974A00A0B3D7 /* Fact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69CA9A752091ECA000917FF4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A872091F26700917FF4 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		69CA9A862091EEB700917FF4 /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A7A2091EDEA00917FF4 /* FactsViewController.swift */,
+				69CA9A7B2091EDEA00917FF4 /* FactDetailViewController.swift */,
+				693D30E5209091A100A0B3D7 /* Facts.storyboard */,
+			);
+			path = Facts;
+			sourceTree = "<group>";
+		};
+		69CA9A8B2092136400917FF4 /* DummyData */ = {
+			isa = PBXGroup;
+			children = (
+				69CA9A8C2092137A00917FF4 /* Facts.json */,
+			);
+			path = DummyData;
+			sourceTree = "<group>";
+		};
+		D697412E31682256C88DF76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F421C80A2432E15720273C /* Pods_VirtusaTest.framework */,
+				03471316D8824B9869BE46F8 /* Pods_VirtusaTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		693D30A820908EA000A0B3D7 /* VirtusaTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693D30C820908EA100A0B3D7 /* Build configuration list for PBXNativeTarget "VirtusaTest" */;
+			buildPhases = (
+				9FFC5B88BC9371C69FB4AE87 /* [CP] Check Pods Manifest.lock */,
+				693D30A520908EA000A0B3D7 /* Sources */,
+				693D30A620908EA000A0B3D7 /* Frameworks */,
+				693D30A720908EA000A0B3D7 /* Resources */,
+				ED6ED842D8499AC812BC2F84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtusaTest;
+			productName = VirtusaTest;
+			productReference = 693D30A920908EA000A0B3D7 /* VirtusaTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		693D30BE20908EA100A0B3D7 /* VirtusaTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693D30CB20908EA100A0B3D7 /* Build configuration list for PBXNativeTarget "VirtusaTestTests" */;
+			buildPhases = (
+				CD4BADB0C4A4C7ED24155B26 /* [CP] Check Pods Manifest.lock */,
+				693D30BB20908EA100A0B3D7 /* Sources */,
+				693D30BC20908EA100A0B3D7 /* Frameworks */,
+				693D30BD20908EA100A0B3D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				693D30C120908EA100A0B3D7 /* PBXTargetDependency */,
+			);
+			name = VirtusaTestTests;
+			productName = VirtusaTestTests;
+			productReference = 693D30BF20908EA100A0B3D7 /* VirtusaTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		693D30A120908EA000A0B3D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = nettrinity.com.au;
+				TargetAttributes = {
+					693D30A820908EA000A0B3D7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					693D30BE20908EA100A0B3D7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 693D30A820908EA000A0B3D7;
+					};
+				};
+			};
+			buildConfigurationList = 693D30A420908EA000A0B3D7 /* Build configuration list for PBXProject "VirtusaTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 693D30A020908EA000A0B3D7;
+			productRefGroup = 693D30AA20908EA000A0B3D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				693D30A820908EA000A0B3D7 /* VirtusaTest */,
+				693D30BE20908EA100A0B3D7 /* VirtusaTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		693D30A720908EA000A0B3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693D30E7209091A100A0B3D7 /* LaunchScreen.storyboard in Resources */,
+				69CA9A852091EE2600917FF4 /* Assets.xcassets in Resources */,
+				693D30E8209091A100A0B3D7 /* Facts.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693D30BD20908EA100A0B3D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CA9A8E209214C400917FF4 /* Facts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FFC5B88BC9371C69FB4AE87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtusaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4BADB0C4A4C7ED24155B26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VirtusaTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED6ED842D8499AC812BC2F84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VirtusaTest/Pods-VirtusaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		693D30A520908EA000A0B3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CA9A822091EE0700917FF4 /* FactCellViewModel.swift in Sources */,
+				69CA9A772091ECC500917FF4 /* FactWebservice.swift in Sources */,
+				69CA9A7E2091EDEA00917FF4 /* FactDetailViewController.swift in Sources */,
+				69CA9A7D2091EDEA00917FF4 /* FactsViewController.swift in Sources */,
+				69CA9A7F2091EDEA00917FF4 /* FactCollectionViewCell.swift in Sources */,
+				69CA9A882091F26800917FF4 /* Constants.swift in Sources */,
+				693D30AD20908EA000A0B3D7 /* AppDelegate.swift in Sources */,
+				69CA9A792091ECEB00917FF4 /* ViewExtensions.swift in Sources */,
+				69CA9A832091EE0700917FF4 /* FactViewModel.swift in Sources */,
+				69CA9A8A20920F9400917FF4 /* String+URLRequest.swift in Sources */,
+				693D30EB2090974A00A0B3D7 /* Fact.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		693D30BB20908EA100A0B3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693D30C420908EA100A0B3D7 /* VirtusaTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		693D30C120908EA100A0B3D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 693D30A820908EA000A0B3D7 /* VirtusaTest */;
+			targetProxy = 693D30C020908EA100A0B3D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		693D30E3209091A100A0B3D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693D30E4209091A100A0B3D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		693D30E5209091A100A0B3D7 /* Facts.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				693D30E6209091A100A0B3D7 /* Base */,
+			);
+			name = Facts.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		693D30C620908EA100A0B3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		693D30C720908EA100A0B3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		693D30C920908EA100A0B3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E724B3AA2F35E52B382A28A /* Pods-VirtusaTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtusaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.nettrinity.VirtusaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		693D30CA20908EA100A0B3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64106BF102EEC9960B717A6 /* Pods-VirtusaTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtusaTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.nettrinity.VirtusaTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		693D30CC20908EA100A0B3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F317ECF9D9600C9AE53EC5BA /* Pods-VirtusaTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtusaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.nettrinity.VirtusaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtusaTest.app/VirtusaTest";
+			};
+			name = Debug;
+		};
+		693D30CD20908EA100A0B3D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B6B096634CF2EB5967E783 /* Pods-VirtusaTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VirtusaTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.nettrinity.VirtusaTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtusaTest.app/VirtusaTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		693D30A420908EA000A0B3D7 /* Build configuration list for PBXProject "VirtusaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693D30C620908EA100A0B3D7 /* Debug */,
+				693D30C720908EA100A0B3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693D30C820908EA100A0B3D7 /* Build configuration list for PBXNativeTarget "VirtusaTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693D30C920908EA100A0B3D7 /* Debug */,
+				693D30CA20908EA100A0B3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693D30CB20908EA100A0B3D7 /* Build configuration list for PBXNativeTarget "VirtusaTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				693D30CC20908EA100A0B3D7 /* Debug */,
+				693D30CD20908EA100A0B3D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 693D30A120908EA000A0B3D7 /* Project object */;
+}
